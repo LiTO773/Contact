@@ -1,0 +1,19 @@
+{
+  "name": "contact",
+  "version": "0.0.1",
+  "description": "A free open source FTP client built with Javascipt and Electron.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LiTO773/Contact.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LiTO773/Contact/issues"
+  },
+  "homepage": "https://github.com/LiTO773/Contact#readme"
+}
