@@ -13,6 +13,7 @@ ReactDOM.render(<Drawer />, drawer) // Renders to .drawer
 
 ReactDOM.render( // Renders to .app
   <div>
+    <div className='dragable' />
     <AddServer />
   </div>
 , app)

@@ -115,6 +115,10 @@ input[type=number]::-webkit-outer-spin-button {
 	background: #00c200;
 }
 
+.windowDiv {
+  -webkit-app-region: drag;
+}
+
 .windowButton {
 	border: none;
 	border-radius: 100%;
@@ -122,10 +126,16 @@ input[type=number]::-webkit-outer-spin-button {
 	height: 12px;
 	background-color: #fff;
 	display: inline-block;
-  margin-top: 5px;
+  margin-top: 15px;
 	margin-left: 4px;
 	margin-right: 4px;
-  margin-bottom: 7px;
+  margin-bottom: 12px;
+  -webkit-app-region: no-drag;
+}
+
+.dragable {
+  -webkit-app-region: drag;
+  height: 30px;
 }
 
 #wb1 {
